@@ -52,6 +52,9 @@ alias coder="sh ~/.Projeler/Komut/code-lang/code-lang.sh"
 alias vm="virtualbox"
 alias vm-install="sudo pacman -Syyu virtualbox && sudo modprobe -a vboxdrv"
 
+#--------PROGRAMS SHORTER--------#
+alias ytdl-music="youtube-dl -f bestaudio --audio-quality 0 --audio-format m4a"
+
 #--------FETCH PROGRAMS--------#
 alias nv="nvim"
 alias nf="neofetch"
