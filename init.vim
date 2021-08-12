@@ -10,32 +10,6 @@ set number "show line numbers
 set noshowmode "setting for lightline
 let mapleader = " " "map leader to Space
 
-[hoovy@turbine ~]$ cat .dotfiles/init.vim
-"---------------------------"
-"    Essential commands     "
-"---------------------------"
-" we haven't yet but we might need this anytime
-
-"---------------------------"
-"    Alias-like commands    "
-"---------------------------"
-set number "show line numbers
-set noshowmode "setting for lightline
-let mapleader = " " "map leader to Space
-
-[hoovy@turbine ~]$ cat .dotfiles/init.vim
-"---------------------------"
-"    Essential commands     "
-"---------------------------"
-" we haven't yet but we might need this anytime
-
-"---------------------------"
-"    Alias-like commands    "
-"---------------------------"
-set number "show line numbers
-set noshowmode "setting for lightline
-let mapleader = " " "map leader to Space
-
 "---------------------------"
 "        Keybindings        "
 "---------------------------"
