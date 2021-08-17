@@ -58,7 +58,7 @@ alias vm="virtualbox"
 alias vm-install="sudo pacman -Syyu virtualbox && sudo modprobe -a vboxdrv"
 
 #--------PROGRAMS SHORTER--------#
-alias ytdl-music="youtube-dl -f bestaudio --audio-quality 0 --audio-format m4a"
+alias ytdl-music="youtube-dl -f bestaudio[ext=m4a] --embed-thumbnail --add-metadata" #requires atomicparsley
 alias emacs="emacs -nw" 
 
 #--------FETCH PROGRAMS--------#
