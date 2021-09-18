@@ -1,0 +1,9 @@
+[module/wlan]
+type = custom/script
+
+format-background = ${colors.color8}
+format-foreground = ${colors.foreground}
+
+exec = echo " $(python ~/.config/polybar/scripts/wlan/wlan-short.py)"
+click-left= sh /home/hoovy/.config/polybar/scripts/wlan/wlan-notify.sh
+;vim:ft=dosini

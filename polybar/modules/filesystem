@@ -1,0 +1,14 @@
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted =  %free%
+format-mounted-background = #81a1c1
+format-mounted-foreground = ${colors.foreground}
+format-mounted-padding = 1
+
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground}
+;vim:ft=dosini

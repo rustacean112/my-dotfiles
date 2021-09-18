@@ -1,0 +1,17 @@
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = " %d %b [%a] %Y |"
+
+time =  %H:%M
+time-alt = %I:%M:%S
+
+label = %date% %time%
+label-background = ${colors.color17}
+label-foreground = ${colors.foreground}
+label-padding = 1
+label-padding-left = 0
+
+;vim:ft=dosini

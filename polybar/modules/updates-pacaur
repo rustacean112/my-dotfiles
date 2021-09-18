@@ -1,0 +1,11 @@
+[module/updates-pacaur]
+type = custom/script
+exec = sh ~/.config/polybar/scripts/update/updates-pacaur.sh
+interval = 1000
+label =  %output%
+format-background = #434c5e
+format-foreground = ${colors.foreground}
+format-padding = 1
+click-left = sh ~/.config/polybar/scripts/update/update-message.sh
+
+; vim:ft=dosini

@@ -1,0 +1,14 @@
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume>
+label-volume = " %%percentage%"
+format-volume-foreground = ${colors.foreground}
+format-volume-background = #88c0d0
+format-volume-padding = 1
+
+label-muted = 婢 muted
+format-muted-foreground = ${colors.foreground}
+format-muted-background = #88c0d0
+format-muted-padding = 1
+; vim:ft=dosini

@@ -1,0 +1,62 @@
+[module/void]
+type = custom/text
+content-foreground = ${colors.color8}
+content-background = ${colors.color8}
+content = " "
+[module/left]
+type = custom/text
+
+content = %{T7}%{T-}
+content-foreground = #88c0d0
+contentfont = 10
+
+[module/right]
+type = custom/text
+
+content = %{T7}%{T-}
+content-foreground = ${colors.color17}
+
+[module/left-color]
+type = custom/text
+
+content = %{T7}%{T-}
+content-foreground = ${colors.color19}
+contentfont = 10
+
+[module/right-color]
+type = custom/text
+
+content = %{T7}%{T-}
+content-foreground = ${colors.color19}
+contentfont = 10
+
+[module/left-mid]
+type = custom/script
+
+exec-if = pgrep -x spotify
+
+exec = echo %{T7}%{T-}
+format-foreground = ${colors.color19}
+contentfont = 10
+
+[module/right-mid]
+type = custom/script
+
+exec-if = pgrep -x spotify
+
+exec = echo %{T7}%{T-}
+format-foreground = ${colors.color19}
+contentfont = 10
+
+
+[module/space]
+type = custom/text
+content =  " "
+
+[module/space1]
+type = custom/text
+content =  " "
+content-background = ${colors.color8}
+
+; vim:ft=dosini
+;vim:ft=dosini

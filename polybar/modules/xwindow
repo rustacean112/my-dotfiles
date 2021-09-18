@@ -1,0 +1,6 @@
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+label-padding-left = 3
+
+; vim:ft=dosini

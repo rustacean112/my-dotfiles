@@ -1,0 +1,9 @@
+[module/battery]
+type = custom/script
+
+format-background = ${colors.color16}
+format-foreground = ${colors.foreground}
+
+exec = python /home/hoovy/.config/polybar/scripts/power/power-short.py
+click-left = sh /home/hoovy/.config/polybar/scripts/power/power-notify.sh
+;vim:ft=dosini

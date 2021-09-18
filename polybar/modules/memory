@@ -1,0 +1,10 @@
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+label = %gb_used%
+
+format-background = #5e81ac
+format-foreground = ${colors.foreground}
+format-padding = 1
+;vim:ft=dosini

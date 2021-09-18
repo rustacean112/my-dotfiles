@@ -1,0 +1,60 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+include-file= ~/.config/polybar/load-modules
+
+[bar/bspbar]
+
+include-file= ~/.config/polybar/fonts
+
+width = 100%
+height = 30
+radius = 10.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+;offset-x = +420
+
+border-size = 5
+border-top-size = 11
+border-bottom-size = 0
+border-color = #00000000
+
+padding = 0
+
+module-margin = 0
+
+padding-left = 0
+padding-right = 0
+
+modules-left = space left-color bspwm right-color space
+modules-center = space left-mid spotify right-mid space
+modules-right = space left pulseaudio filesystem memory updates-pacaur cpu temperature wlan battery date right space
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+wm-restack = bspwm
+
+; vim:ft=dosini

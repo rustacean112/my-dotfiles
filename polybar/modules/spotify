@@ -1,0 +1,17 @@
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = "  "
+format = <label>
+exec = python /home/hoovy/.config/polybar/scripts/spotify/spotify.py -f '{artist}: {song} '
+format-underline = #1db954
+format-background = ${colors.color19}
+
+
+
+;control players (optional)
+click-left = playerctl --player=spotify play-pause 
+click-right = playerctl --player=spotify next 
+click-middle = playerctl --player=spotify previous
+
+; vim:ft=dosini

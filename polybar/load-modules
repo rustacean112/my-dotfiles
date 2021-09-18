@@ -1,0 +1,17 @@
+include-file= ~/.config/polybar/modules/battery
+include-file= ~/.config/polybar/modules/bspwm
+include-file= ~/.config/polybar/modules/corner
+include-file= ~/.config/polybar/modules/cpu
+include-file= ~/.config/polybar/modules/date
+include-file= ~/.config/polybar/modules/filesystem
+include-file= ~/.config/polybar/modules/memory
+include-file= ~/.config/polybar/modules/pulseaudio
+include-file= ~/.config/polybar/modules/settings
+include-file= ~/.config/polybar/modules/spotify
+include-file= ~/.config/polybar/modules/temperature
+include-file= ~/.config/polybar/modules/updates-pacaur
+include-file= ~/.config/polybar/modules/wlan
+include-file= ~/.config/polybar/modules/wm
+include-file= ~/.config/polybar/modules/xwindow
+include-file= ~/.config/polybar/colors
+include-file= ~/.config/polybar/modules/workspaces

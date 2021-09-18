@@ -1,0 +1,3 @@
+[settings]
+screenchange-reload = true
+;vim:ft=dosini

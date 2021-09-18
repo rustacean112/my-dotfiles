@@ -1,0 +1,43 @@
+[module/bspwm]
+type = internal/bspwm
+pin-workspaces = true
+enable-click = true
+enable-scroll = true
+format-padding = 0
+
+icon-default = 
+
+format = <label-state>
+;format-background = ${color.rounds}
+ 
+;label-occupied =  
+label-active = 󰮯
+label-occupied = %{T6}%{T-}
+label-urgent = 󰗶
+label-empty = 
+
+label-empty-padding = 1
+label-active-padding = 1
+label-urgent-padding = 1
+label-occupied-padding = 1
+
+label-empty-foreground = ${colors.color10}
+label-empty-background = ${colors.color19}
+
+label-active-foreground = ${colors.color3}
+label-active-background = ${colors.color19}
+
+label-occupied-foreground = ${colors.color4}
+label-occupied-background = ${colors.color19}
+
+label-urgent-foreground = ${colors.color3}
+label-urgent-background = ${colors.color19}
+
+
+; Separator in between workspaces
+; label-separator = |
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+; vim:ft=dosini
