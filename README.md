@@ -7,4 +7,4 @@ The programs that i used on this SS:
 --
 Jvanrhijn/polybar-spotify -> https://github.com/Jvanrhijn/polybar-spotify.git
 
-alacritty/alacritty -> https://github.com/alacritty/alacritty
+Alacritty/alacritty -> https://github.com/alacritty/alacritty
