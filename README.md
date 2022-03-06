@@ -7,6 +7,7 @@ The programs that i used on this SS:
 --
 - Jvanrhijn/polybar-spotify -> https://github.com/Jvanrhijn/polybar-spotify.git
 - Alacritty/alacritty -> https://github.com/alacritty/alacritty
+- dylanaraps / pfetch -> https://github.com/dylanaraps/pfetch
 
 The fonts that i used on this SS:
 --
