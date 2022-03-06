@@ -1,0 +1,71 @@
+# yamllint disable rule:braces rule:commas rule:colons rule:comments-indentation
+---
+
+window:
+    # Blank space added around the window in pixels
+    padding:
+        x: 6
+        y: 6
+
+    # Spread additional padding evenly around the terminal content
+    dynamic_padding: true
+
+    # Disable border and title bar
+    decorations: full
+
+    # Title of the window
+    title: Alacritty
+
+font:
+    normal:
+        family: Scientifica
+        style: Regular
+    bold:
+        family: Scientifica
+        style: Bold
+    italic:
+        family: Scientifica
+        style: Italic
+
+    # Point size of the font
+    size: 12
+
+# Colors (Gruvbox Material Dark Medium)
+colors:
+  primary:
+    background: '#262626'
+    foreground: '0xdfbf8e'
+
+  normal:
+    black:   '0x665c54'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe78a4e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+  bright:
+    black:   '0x928374'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe3a84e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+ 
+mouse:
+    hide_when_typing: true
+
+selection:
+    # When set to `true`, selected text will be copied to the primary
+    # clipboard.
+    save_to_clipboard: true
+
+cursor:
+    # Thickness of the cursor (number from `0.0` to `1.0`)
+    thickness: 0.18
+    # Vi mode cursor style
+    vi_mode_style: Block

@@ -1,0 +1,101 @@
+# yamllint disable rule:braces rule:commas rule:colons rule:comments-indentation
+---
+
+window:
+    # Blank space added around the window in pixels
+    padding:
+        x: 6
+        y: 6
+
+    # Spread additional padding evenly around the terminal content
+    dynamic_padding: true
+
+    # Disable border and title bar
+    decorations: full
+
+    # Title of the window
+    title: Alacritty
+
+font:
+    normal:
+        #family: JetBrains Mono Medium 
+        family: Scientifica
+        style: Regular
+    bold:
+        #family: JetBrains Mono Medium 
+        family: Scientifica
+        style: Bold
+    italic:
+        #family: JetBrains Mono Medium 
+        family: Scientifica
+        style: Italic
+
+    # Point size of the font
+    #size: 9.5
+    size: 12
+
+# Colors (arcticicestudio/nord-alacritty); if dim colors are not set, they will be calculated
+# automatically based on the `normal` colors
+colors:
+  primary:
+    background:  '#2e3440'
+    foreground: '#aeb3bb'
+    dim_foreground: '#a5abb6'
+  cursor:
+    text: '#2e3440'
+    cursor: '#aeb3bb'
+  vi_mode_cursor:
+    text: '#2e3440'
+    cursor: '#aeb3bb'
+  selection:
+    text: CellForeground
+    background: '#7c859c' #this makes selections blind
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#88c0d0'
+    bar:
+      background: '#434c5e'
+      foreground: '#aeb3bb'
+  normal:
+    black: '#3b4252'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#88c0d0'
+    white: '#aeb3bb'
+  bright:
+    black: '#7c859c'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#8fbcbb'
+    white: '#aeb3bb'
+
+  dim:
+    black: '#373e4d'
+    red: '#94545d'
+    green: '#809575'
+    yellow: '#b29e75'
+    blue: '#68809a'
+    magenta: '#8c738c'
+    cyan: '#6d96a5'
+    white: '#aeb3bb'
+
+mouse:
+    hide_when_typing: true
+
+selection:
+    # When set to `true`, selected text will be copied to the primary
+    # clipboard.
+    save_to_clipboard: true
+
+cursor:
+    # Thickness of the cursor (number from `0.0` to `1.0`)
+    thickness: 0.18
+    # Vi mode cursor style
+    vi_mode_style: Block
